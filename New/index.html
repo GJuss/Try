@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentines</title>
+    <style>
+        body {
+            background: url(Image/pexels-pixabay-56866.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            color: pink;
+            filter: drop-shadow(15px 5px 5px black);
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content h1{
+            padding: 10px;
+            background: rgba(168, 61, 154, 0.2); 
+            backdrop-filter: blur(90px);
+        }
+        @media (max-width: 700px) {
+            body {
+                font-size: 30px;
+                background-size: cover;
+                background-position: 50% 50%;
+                filter: drop-shadow(5px 5px 1px black);
+                text-align: center;
+            }
+        }
+        @media (max-width: 1500px) {
+            body {
+                background-size: cover;
+                background-position: 50% 50%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="content">
+            <h1>HAPPY VALENTINES DAY</h1>
+        </div>
+    </div>
+</body>
+</html>
